@@ -1,0 +1,38 @@
+@tailwind base;
+
+@tailwind components;
+
+@font-face {
+    font-family: 'noway';
+    src: url('/fonts/noway-regular-webfont.eot');
+    src: url('/fonts/noway-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/noway-regular-webfont.woff2') format('woff2'),
+    url('/fonts/noway-regular-webfont.woff') format('woff'),
+    url('/fonts/noway-regular-webfont.ttf') format('truetype'),
+    url('/fonts/noway-regular-webfont.svg#nowayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'nowaymedium';
+    src: url('/fonts/noway-medium-webfont.eot');
+    src: url('/fonts/noway-medium-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/noway-medium-webfont.woff2') format('woff2'),
+    url('/fonts/noway-medium-webfont.woff') format('woff'),
+    url('/fonts/noway-medium-webfont.ttf') format('truetype'),
+    url('/fonts/noway-medium-webfont.svg#nowayregular') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+.font-noway {
+    font-family: noway, Helvetica, Arial, sans-serif;
+}
+
+.font-noway-medium {
+    font-family: nowaymedium, Helvetica, Arial, sans-serif;
+}
+
+@tailwind utilities;
+
+
