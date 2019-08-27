@@ -26,7 +26,8 @@
             </div>
             <div class="text-2xl">
                 Full Stack Europe<br />
-                October 23, 2019
+                October 23, 2019<br />
+                https://fullstackeurope.com
             </div>
         </div>
 
