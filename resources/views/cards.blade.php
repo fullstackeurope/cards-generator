@@ -24,7 +24,7 @@
                     by {{ $workshop['teacher_name'] }} - {{ $workshop['teacher_title'] }}
                 </div>
             </div>
-            <div class="text-xl">
+            <div class="text-2xl">
                 Full Stack Europe<br />
                 October 23, 2019
             </div>
