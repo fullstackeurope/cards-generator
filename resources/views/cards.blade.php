@@ -12,17 +12,24 @@
 </head>
 <body class="m-8 font-noway">
 @foreach($workshops as $workshop)
-    <div class="m-8 flex bg-repeat max-w-6xl border-8" style="background-image: url('/images/pattern.png')">
-        <img class="max-w-sm" src="{{ $workshop['teacher_photo'] }}" alt="avatar"/>
+    <div class="m-8 inline-flex bg-repeat border-8 content-between" style="background-image: url('/images/pattern.png')">
+        <img class="h-64" src="{{ $workshop['teacher_photo'] }}" alt="avatar"/>
 
-        <div class="m-8">
-            <div class="text-4xl font-bold">
-                {{ $workshop['title'] }}
+        <div class="m-4 flex flex-col justify-between">
+            <div class="flex flex-col">
+                <div class="text-4xl font-bold">
+                    {{ $workshop['title'] }}
+                </div>
+                <div class="text-xl">
+                    by {{ $workshop['teacher_name'] }} - {{ $workshop['teacher_title'] }}
+                </div>
             </div>
-            <div class="mt-4 text-xl">
-                by {{ $workshop['teacher_name'] }} - {{ $workshop['teacher_title'] }}
+            <div class="text-xl">
+                Full Stack Europe<br />
+                October 23, 2019
             </div>
         </div>
+
     </div>
 @endforeach
 </body>
