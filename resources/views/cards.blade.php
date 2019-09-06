@@ -11,17 +11,17 @@
           integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </head>
 <body class="m-8 font-noway">
-@foreach($workshops as $workshop)
-    <div class="m-8 inline-flex bg-repeat border-8 content-between" style="background-image: url('/images/pattern.png')">
-        <img class="h-64" src="{{ $workshop['teacher_photo'] }}" alt="avatar"/>
+@foreach($cards as $card)
+    <div id="card-{{ \Illuminate\Support\Str::slug($card['teacher_name']) }}" class="m-8 inline-flex bg-repeat border-8 content-between" style="background-image: url('/images/pattern.png')">
+        <img class="h-64" src="{{ $card['teacher_photo'] }}" alt="avatar"/>
 
-        <div class="m-4 flex flex-col justify-between">
+        <div class="m-4 flex flex-col justify-between ">
             <div class="flex flex-col">
                 <div class="text-4xl font-bold">
-                    {{ $workshop['title'] }}
+                    {{ $card['title'] }}
                 </div>
                 <div class="text-2xl">
-                    by {{ $workshop['teacher_name'] }} - {{ $workshop['teacher_title'] }}
+                    by {{ $card['teacher_name'] }} - {{ $card['teacher_title'] }}
                 </div>
             </div>
             <div class="text-2xl">
