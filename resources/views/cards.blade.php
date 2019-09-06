@@ -20,14 +20,14 @@
                 <div class="text-4xl font-bold">
                     {{ $workshop['title'] }}
                 </div>
-                <div class="text-xl">
+                <div class="text-2xl">
                     by {{ $workshop['teacher_name'] }} - {{ $workshop['teacher_title'] }}
                 </div>
             </div>
             <div class="text-2xl">
                 Full Stack Europe<br />
                 October 23, 2019<br />
-                https://fullstackeurope.com
+                fullstackeurope.com
             </div>
         </div>
 
