@@ -26,7 +26,12 @@
             </div>
             <div class="text-2xl">
                 Full Stack Europe<br />
-                October 23, 2019<br />
+                @if ($card['type'] === 'Workshop')
+                    October 23, 2019<br />
+                @else
+                    October 24 & 25, 2019<br />
+
+                @endif
                 fullstackeurope.com
             </div>
         </div>
