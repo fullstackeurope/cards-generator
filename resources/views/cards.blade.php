@@ -12,8 +12,8 @@
 </head>
 <body class="m-8 font-noway">
 @foreach($cards as $card)
-    <div id="card-{{ \Illuminate\Support\Str::slug($card['teacher_name']) }}" class="m-8 inline-flex bg-repeat border-8 content-between" style="background-image: url('/images/pattern.png')">
-        <img class="h-64" src="{{ $card['teacher_photo'] }}" alt="avatar"/>
+    <div id="card-{{ \Illuminate\Support\Str::slug("{$card['type']} {$card['speaker_name']}") }}" class="m-8 inline-flex bg-repeat border-8 content-between" style="background-image: url('/images/pattern.png')">
+        <img class="h-64" src="{{ $card['speaker_photo'] }}" alt="avatar"/>
 
         <div class="m-4 flex flex-col justify-between ">
             <div class="flex flex-col">
@@ -21,7 +21,7 @@
                     {{ $card['title'] }}
                 </div>
                 <div class="text-2xl">
-                    by {{ $card['teacher_name'] }} - {{ $card['teacher_title'] }}
+                    by {{ $card['speaker_name'] }} - {{ $card['speaker_title'] }}
                 </div>
             </div>
             <div class="text-2xl">
