@@ -117,7 +117,7 @@ class Cards
                 'type' => 'Talk',
                 'speaker_name' => 'Rik Van Bruggen',
                 'speaker_title' => 'Vice-president at Neo4j',
-                'speaker_photo' => '/images/speakers/rik-van-bruggen.jpg',
+                'speaker_photo' => '/images/speakers/rik-van-bruggen.png',
             ],
             [
                 'title' => 'Caching the uncacheable in Varnish',
