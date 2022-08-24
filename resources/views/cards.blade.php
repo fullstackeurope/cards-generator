@@ -28,9 +28,9 @@
             <div class="text-2xl">
                 Full Stack Europe<br />
                 @if ($card['type'] === 'Workshop')
-                    October 23, 2019<br />
+                    October 5, 2022<br />
                 @else
-                    October 24 & 25, 2019<br />
+                    October 6 & 7, 2022<br />
 
                 @endif
                 fullstackeurope.com
