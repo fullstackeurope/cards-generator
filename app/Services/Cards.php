@@ -25,7 +25,7 @@ class Cards
                 'title' => 'Deploy Empathy Masterclass',
                 'type' => 'Workshop',
                 'speaker_name' => 'Michele Hansen',
-                'speaker_title' => 'Co-Founder, Geocodio, co-host, Software Social Podcast, and author, Deploy Empathy',
+                'speaker_title' => 'Co-Founder Geocodio and and author of Deploy Empathy',
                 'speaker_photo' => '/images/speakers/michele-hansen.jpg',
             ],
             [
@@ -53,7 +53,7 @@ class Cards
                 'title' => 'Before You Deploy Code, Deploy Empathy',
                 'type' => 'Talk',
                 'speaker_name' => 'Michele Hansen',
-                'speaker_title' => 'Co-Founder, Geocodio, co-host, Software Social Podcast, and author, Deploy Empathy',
+                'speaker_title' => 'Co-Founder Geocodio and and author of Deploy Empathy',
                 'speaker_photo' => '/images/speakers/michele-hansen.jpg',
             ],
             [
@@ -92,7 +92,7 @@ class Cards
                 'speaker_photo' => '/images/speakers/rene-schulte.jpg',
             ],
             [
-                'title' => 'Things Every Developer Absolutely, Positively Needs to Know About Database Indexing',
+                'title' => 'Things Every Developer needs to Know About DB Indexing',
                 'type' => 'Talk',
                 'speaker_name' => 'Kai Sassnowski',
                 'speaker_title' => 'Senior Software Developer',
