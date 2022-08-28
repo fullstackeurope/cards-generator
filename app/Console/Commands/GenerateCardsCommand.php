@@ -20,7 +20,7 @@ class GenerateCardsCommand extends Command
 
             $elementId = "#card-{$slug}";
 
-            Browsershot::url('http://cards-generator-new.test/')
+            Browsershot::url('http://cards-generator.test/')
                 ->select($elementId)
                 ->deviceScaleFactor(2)
                 ->windowSize(2000, 2000)
