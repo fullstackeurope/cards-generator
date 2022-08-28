@@ -103,7 +103,7 @@ class Cards
                 'type' => 'Talk',
                 'speaker_name' => 'Aaron Francis',
                 'speaker_title' => 'Full Stack Developer & Marketing Engineer at Tuple',
-                'speaker_photo' => '/images/speakers/aaron-francis.png',
+                'speaker_photo' => '/images/speakers/aaron-francis.jpg',
             ],
             [
                 'title' => 'Hear no Evil, See no Evil, Code no Evil ();',
